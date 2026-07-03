@@ -11,8 +11,6 @@
   <style>
     /* ============================================================
        DESIGN SYSTEM
-       Primary ref: Everywhere at the End of Time
-       Secondary echo: Ultrakill (games section only, blood red)
        Palette: warm sepia void · amber lamp glow · fog ash
     ============================================================ */
     :root {
@@ -59,7 +57,7 @@
     }
 
     /* ============================================================
-       GRAIN EFFECT (Editörlerin renklerini bozan tırnaklar Base64 ile temizlendi)
+       GRAIN EFFECT
     ============================================================ */
     body::after {
       content:'';
@@ -154,7 +152,7 @@
       font-family:'Space Grotesk',sans-serif; font-size:12px;
       letter-spacing:1px; color:var(--ash-dim); text-align:center;
       opacity:0; animation:fadein .8s ease 1.3s forwards;
-      margin-bottom:52px; font-style:italic;
+      margin-bottom:52px;
     }
     .ld-track {
       width:min(260px,72vw); height:1px;
@@ -295,7 +293,7 @@
       text-transform:uppercase; margin-top:6px; z-index:2;
     }
     .bio {
-      font-size:15px; font-style:italic; color:var(--fog);
+      font-size:15px; color:var(--fog);
       margin-top:20px; min-height:24px; z-index:2; letter-spacing:.5px;
     }
     .blink {
@@ -459,7 +457,6 @@
     ============================================================ */
     #anime { background:var(--void); }
     .an-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
-    .an-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
     .an-card {
       border:1px solid var(--border); padding:20px 18px;
       transition:border-color .3s, background .3s;
@@ -552,11 +549,11 @@
 <div class="c-dot"  id="cd"></div>
 
 <div id="loader">
-  <div class="ld-stage">// Stage 1 — a place where things still hold</div>
+  <div class="ld-stage">// Welcome</div>
   <p class="ld-title">
-    Somewhere between<br><em>remembering</em> and letting go.
+    Gorkem's Personal Portfolio
   </p>
-  <p class="ld-sub">a quiet room. an old record. a fading light.</p>
+  <p class="ld-sub">Loading the page, please wait...</p>
   <div class="ld-track"><div class="ld-fill" id="ldFill"></div></div>
   <div class="ld-pct" id="ldPct">0%</div>
 </div>
@@ -642,9 +639,8 @@
           <div class="gm-eye">// FPS · Action · Style</div>
           <div class="gm-title">ULTRAKILL</div>
           <div class="gm-desc">
-            Heaven is destroyed. Hell is your playground. A relentless machine shooter
-            where every kill is a performance and blood is literal fuel.
-            Played it until there was nothing left to clear.
+            A fast-paced, stylized retro first-person shooter. It features intense movement mechanics, 
+            a rewarding combo system, and a highly competitive gameplay loop.
           </div>
           <div class="gm-badge">Fully P-Ranked</div>
         </div>
@@ -654,8 +650,8 @@
           <div class="gm-eye">// Survival · Exploration</div>
           <div class="gm-title">Subnautica</div>
           <div class="gm-desc">
-            An alien ocean, bioluminescent depths, and a quiet dread that doesn't leave.
-            Beautiful and terrifying in ways that don't cancel each other out.
+            An open-world survival action-adventure game set on an alien ocean planet. 
+            It combines deep underwater exploration, base building, and a compelling sci-fi mystery.
           </div>
         </div>
       </div>
@@ -674,8 +670,8 @@
           <div>
             <div class="mu-artist">Tame Impala</div>
             <div class="mu-desc">
-              Psychedelic and slow-burning. Kevin Parker's world of fractured warmth
-              and layered sound. The kind of music that turns a room into somewhere else.
+              A psychedelic music project by Kevin Parker. Known for its distinct, multi-layered production, 
+              melodic synth tracks, and immersive atmosphere.
             </div>
           </div>
         </div>
@@ -685,10 +681,9 @@
           <div>
             <div class="mu-artist">The Caretaker</div>
             <div class="mu-desc">
-              <em>Everywhere at the End of Time.</em> Six stages.
-              Memory dissolving slowly into static and then nothing at all.
-              It stops being music somewhere along the way — and becomes
-              something harder to name. It stays with you.
+              An ambient music project created by James Leyland Kirby. Best known for 
+              <em>Everywhere at the End of Time</em>, a multi-stage concept album exploring 
+              memory, nostalgia, and sound deterioration.
             </div>
           </div>
         </div>
@@ -707,24 +702,23 @@
           <div class="an-badge">⭐ all-time favorite</div>
           <div class="an-title">JoJo's Bizarre Adventure</div>
           <div class="an-desc">
-            Stands, dramatic poses, and a universe that takes itself seriously
-            in exactly the right way. Favorite character:
-            <strong>Noriaki Kakyoin</strong> — underrated, sharp, deserved far more.
+            A unique and long-running series famous for its creative battles, memorable character designs, 
+            and pop-culture references. Favorite character: <strong>Noriaki Kakyoin</strong>.
           </div>
         </div>
         <div class="an-card r">
           <div class="an-badge">Top Tier</div>
           <div class="an-title">Hunter × Hunter</div>
           <div class="an-desc">
-            Nen, strategy, and arcs that take their time and then wreck you.
-            The Chimera Ant arc earns its reputation.
+            A brilliant shonen series with deep strategy, great power design (Nen), 
+            and incredible character development, especially during the Chimera Ant arc.
           </div>
         </div>
         <div class="an-card r">
           <div class="an-badge">Reading</div>
           <div class="an-title">Manga</div>
           <div class="an-desc">
-            Always finding new ones. The good ones stay.
+            I enjoy following and reading various ongoing manga series.
           </div>
         </div>
       </div>
@@ -738,17 +732,17 @@
       <div class="rule r"></div>
 
       <div class="hb-list">
-        <div class="hb-item r"><span class="hb-idx">01</span><span class="hb-name">Gaming</span><span class="hb-note">PC · Mastery</span></div>
-        <div class="hb-item r"><span class="hb-idx">02</span><span class="hb-name">Listening to Music</span><span class="hb-note">Everything</span></div>
-        <div class="hb-item r"><span class="hb-idx">03</span><span class="hb-name">Device Emulation</span><span class="hb-note">Learning</span></div>
-        <div class="hb-item r"><span class="hb-idx">04</span><span class="hb-name">Anime & Manga</span><span class="hb-note">Selective</span></div>
-        <div class="hb-item r"><span class="hb-idx">05</span><span class="hb-name">Learning to Code</span><span class="hb-note">Python · C++</span></div>
+        <div class="hb-item r"><span class="hb-idx">01</span><span class="hb-name">Gaming</span><span class="hb-note">PC</span></div>
+        <div class="hb-item r"><span class="hb-idx">02</span><span class="hb-name">Listening to Music</span><span class="hb-note">Various Genres</span></div>
+        <div class="hb-item r"><span class="hb-idx">03</span><span class="hb-name">Device Emulation</span><span class="hb-note">Hobby</span></div>
+        <div class="hb-item r"><span class="hb-idx">04</span><span class="hb-name">Anime & Manga</span><span class="hb-note">Watching & Reading</span></div>
+        <div class="hb-item r"><span class="hb-idx">05</span><span class="hb-name">Learning to Code</span><span class="hb-note">Python & C++</span></div>
       </div>
     </div>
   </section>
 
   <footer>
-    <p class="ft-quote">"It was always slipping away. But for a moment — it was there."</p>
+    <p class="ft-quote">"Simplicity is the ultimate sophistication."</p>
     <p class="ft-handle">gokems</p>
   </footer>
 
@@ -756,7 +750,7 @@
 
 <script>
 /* ----------------------------------------------------------
-   LOADING — tape-decay irregular rhythm
+   LOADING
 ---------------------------------------------------------- */
 const fill   = document.getElementById('ldFill');
 const pctEl  = document.getElementById('ldPct');
@@ -790,7 +784,7 @@ const iv = setInterval(() => {
    TYPING
 ---------------------------------------------------------- */
 function startTyping() {
-  const words = ['tired.', 'wandering.', 'still here.', 'just passing through.'];
+  const words = ['Welcome to my site.', 'Learning new skills.', 'Playing games.', 'Coding projects.'];
   const el = document.getElementById('bio');
   let wi = 0, ci = 0, erasing = false;
   function tick() {
